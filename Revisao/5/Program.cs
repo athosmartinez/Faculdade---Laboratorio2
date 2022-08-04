@@ -7,7 +7,7 @@ namespace ex5 // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             int factorial = 1;
-            Console.WriteLine("Entre com queeeeee número deseja calcular o fatorial: ");
+            Console.WriteLine("Entre com que número deseja calcular o fatorial: ");
             int num = int.Parse(Console.ReadLine());
             if(num == 0)
             {
