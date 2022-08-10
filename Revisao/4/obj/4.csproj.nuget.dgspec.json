@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Revisao\\4\\4.csproj": {}
+    "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\Revisao\\4\\4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Revisao\\4\\4.csproj": {
+    "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\Revisao\\4\\4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Revisao\\4\\4.csproj",
+        "projectUniqueName": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\Revisao\\4\\4.csproj",
         "projectName": "4",
-        "projectPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Revisao\\4\\4.csproj",
-        "packagesPath": "C:\\Users\\0103249\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Revisao\\4\\obj\\",
+        "projectPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\Revisao\\4\\4.csproj",
+        "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\Revisao\\4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\0103249\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
