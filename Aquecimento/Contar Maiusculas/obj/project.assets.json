@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/athos/.nuget/packages/": {}
+    "C:\\Users\\0103249\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/0103249/Documents/GitHub/Faculdade---Laboratorio2/Aquecimento/Par Impar/Par Impar.csproj",
-      "projectName": "Par Impar",
-      "projectPath": "/mnt/c/Users/0103249/Documents/GitHub/Faculdade---Laboratorio2/Aquecimento/Par Impar/Par Impar.csproj",
-      "packagesPath": "/home/athos/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/0103249/Documents/GitHub/Faculdade---Laboratorio2/Aquecimento/Par Impar/obj/",
+      "projectUniqueName": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Aquecimento\\Contar Maiusculas\\Contar Maiusculas.csproj",
+      "projectName": "Contar Maiusculas",
+      "projectPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Aquecimento\\Contar Maiusculas\\Contar Maiusculas.csproj",
+      "packagesPath": "C:\\Users\\0103249\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Aquecimento\\Contar Maiusculas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/athos/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\0103249\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
