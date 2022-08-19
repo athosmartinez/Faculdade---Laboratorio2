@@ -14,7 +14,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 int contamais = 0;
                 str = Console.ReadLine();
 
-                if (!(str.ToLower().Equals("fim"))) // impede entrar na contagem do FIM!
+                 // impede entrar na contagem do FIM!
                 {
                     for (int i = 0; i < str.Length; i++)
                     {
