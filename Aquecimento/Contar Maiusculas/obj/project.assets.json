@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\athos\\.nuget\\packages\\": {}
+    "C:\\Users\\0103249\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\Aquecimento\\Contar Maiusculas\\Contar Maiusculas.csproj",
+      "projectUniqueName": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Aquecimento\\Contar Maiusculas\\Contar Maiusculas.csproj",
       "projectName": "Contar Maiusculas",
-      "projectPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\Aquecimento\\Contar Maiusculas\\Contar Maiusculas.csproj",
-      "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\Aquecimento\\Contar Maiusculas\\obj\\",
+      "projectPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Aquecimento\\Contar Maiusculas\\Contar Maiusculas.csproj",
+      "packagesPath": "C:\\Users\\0103249\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\Aquecimento\\Contar Maiusculas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\0103249\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
