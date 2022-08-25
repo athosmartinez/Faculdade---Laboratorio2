@@ -11,10 +11,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
             int[] Vector = new int[100000];
             do
             {
-
                 int contamais = 0;
                 str = Console.ReadLine();
 
+                 // impede entrar na contagem do FIM!
                 {
                     for (int i = 0; i < str.Length; i++)
                     {
@@ -27,6 +27,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     Vector[contalinhas] = contamais;
                     contalinhas++;
                 }
+                
             } while (str.ToLower().Equals("fim") == false);
             for (int i = 0; i < contalinhas; i++)
             {
