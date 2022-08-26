@@ -20,8 +20,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 retorno1 = vogais(frase1);
                 retorno2 = consoantes(frase1);
                 retorno3 = inteiros(frase1);
-                
-                 Console.WriteLine("{0} {1} {3}", retorno1, retorno2, retorno3);
+                retorno4 = reais(frase1);
+
+                Console.WriteLine("{0} {1} {2} {3}", retorno1, retorno2, retorno3, retorno4);
             } while (!frase1.ToUpper().Equals("FIM"));
         }
 
@@ -51,6 +52,16 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     || frase1[i] == 'X'
                     || frase1[i] == 'Y'
                     || frase1[i] == 'Z'
+                    || frase1[i] == '1'
+                    || frase1[i] == '2'
+                    || frase1[i] == '3'
+                    || frase1[i] == '4'
+                    || frase1[i] == '5'
+                    || frase1[i] == '6'
+                    || frase1[i] == '7'
+                    || frase1[i] == '8'
+                    || frase1[i] == '9'
+                    || frase1[i] == '0'
                 )
                 {
                     return "NAO";
@@ -64,31 +75,40 @@ namespace MyApp // Note: actual namespace depends on the project name.
             for (int i = 0; i < frase1.Length; i++)
             {
                 if (
-                    frase1[i] != 'A'
-                    && frase1[i] != 'E'
-                    && frase1[i] != 'I'
-                    && frase1[i] != 'O'
-                    && frase1[i] != 'U'
+                    frase1[i] == 'A'
+                    || frase1[i] == 'E'
+                    || frase1[i] == 'I'
+                    || frase1[i] == 'O'
+                    || frase1[i] == 'U'
+                    || frase1[i] == '1'
+                    || frase1[i] == '2'
+                    || frase1[i] == '3'
+                    || frase1[i] == '4'
+                    || frase1[i] == '5'
+                    || frase1[i] == '6'
+                    || frase1[i] == '7'
+                    || frase1[i] == '8'
+                    || frase1[i] == '9'
+                    || frase1[i] == '0'
                 )
                 {
-                    return "SIM";
+                    return "NAO";
                 }
             }
-            return "NAO";
+            return "SIM";
         }
 
-        static string inteiros(string frase1) {  
-            for (int i = 0; i < frase1.Length; i++)
-            {
-                int resultado;
-                if (Int32.TryParse(frase1[i].ToString(), out resultado))
-                {
-                    return "SIM";
-                }
-            }
-            return "NAO";
+        static string inteiros(string frase1)
+        {
+            int numero;
+            return int.TryParse(frase1, out numero) ? "SIM" : "NAO";
         }
 
-        
+        static string reais(string frase1)
+        {
+            string frase1_ = frase1.Replace(",", ".");
+            float numero;
+            return float.TryParse(frase1_, out numero) ? "SIM" : "NAO";
+        }
     }
 }
