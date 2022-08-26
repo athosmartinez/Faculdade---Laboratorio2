@@ -5,29 +5,80 @@ namespace MyApp // Note: actual namespace depends on the project name.
     internal class Program
     {
         static void Main(string[] args)
-        {   
-            var consonates = new HashSet<char> { 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z' };
-            var vogais = new HashSet<char> { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'  };
-            string frase1, frase2;
-            int num1, num2;
-            frase1 =  Console.ReadLine();
-            for(int i = 0; i < frase1.Length; i++)
+        {
+            string frase1;
+            do
             {
-                if (vogais.Contains(frase1[i]))
-                {
-                    Console.Write("SIM");
-                }
-            }
+                string retorno1,
+                    retorno2,
+                    retorno3,
+                    retorno4;
+                frase1 = Console.ReadLine().ToUpper();
+                if (frase1.ToUpper().Equals("FIM"))
+                    continue;
 
-            frase2 = Console.ReadLine();
-            for(int i = 0; i < frase2.Length; i++)
-            {
-                if (consonates.Contains(frase2[i]))
-                {
-                    Console.Write("SIM");
-                }
-            }
-
+                retorno1 = vogais(frase1);
+                retorno2 = consoantes(frase1);
+                //inteiros(ref frase1);
+                //reais(ref frase1);
+                 Console.WriteLine("{0} {1}", retorno1, retorno2);
+            } while (!frase1.ToUpper().Equals("FIM"));
         }
+
+        static string vogais(string frase1)
+        {
+            for (int i = 0; i < frase1.Length; i++)
+            {
+                if (
+                    frase1[i] == 'B'
+                    || frase1[i] == 'C'
+                    || frase1[i] == 'D'
+                    || frase1[i] == 'F'
+                    || frase1[i] == 'G'
+                    || frase1[i] == 'H'
+                    || frase1[i] == 'J'
+                    || frase1[i] == 'K'
+                    || frase1[i] == 'L'
+                    || frase1[i] == 'M'
+                    || frase1[i] == 'N'
+                    || frase1[i] == 'P'
+                    || frase1[i] == 'Q'
+                    || frase1[i] == 'R'
+                    || frase1[i] == 'S'
+                    || frase1[i] == 'T'
+                    || frase1[i] == 'V'
+                    || frase1[i] == 'W'
+                    || frase1[i] == 'X'
+                    || frase1[i] == 'Y'
+                    || frase1[i] == 'Z'
+                )
+                {
+                    return "NAO";
+                }
+            }
+            return "SIM";
+        }
+
+        static string consoantes(string frase1)
+        {
+            for (int i = 0; i < frase1.Length; i++)
+            {
+                if (
+                    frase1[i] != 'A'
+                    && frase1[i] != 'E'
+                    && frase1[i] != 'I'
+                    && frase1[i] != 'O'
+                    && frase1[i] != 'U'
+                )
+                {
+                    return "SIM";
+                }
+            }
+            return "NAO";
+        }
+
+        static void inteiros(ref string frase1) { }
+
+        static void reais(ref string frase1) { }
     }
 }
