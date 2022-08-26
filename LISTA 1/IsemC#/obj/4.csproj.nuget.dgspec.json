@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/athos/OneDrive/Documents/GitHub/Faculdade---Laboratorio2/Faculdade---Laboratorio2/LISTA 1/IsemC#/4.csproj": {}
+    "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\LISTA 1\\IsemC#\\4.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/athos/OneDrive/Documents/GitHub/Faculdade---Laboratorio2/Faculdade---Laboratorio2/LISTA 1/IsemC#/4.csproj": {
+    "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\LISTA 1\\IsemC#\\4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/athos/OneDrive/Documents/GitHub/Faculdade---Laboratorio2/Faculdade---Laboratorio2/LISTA 1/IsemC#/4.csproj",
+        "projectUniqueName": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\LISTA 1\\IsemC#\\4.csproj",
         "projectName": "4",
-        "projectPath": "/mnt/c/Users/athos/OneDrive/Documents/GitHub/Faculdade---Laboratorio2/Faculdade---Laboratorio2/LISTA 1/IsemC#/4.csproj",
-        "packagesPath": "/home/athos/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/athos/OneDrive/Documents/GitHub/Faculdade---Laboratorio2/Faculdade---Laboratorio2/LISTA 1/IsemC#/obj/",
+        "projectPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\LISTA 1\\IsemC#\\4.csproj",
+        "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\LISTA 1\\IsemC#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/athos/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
