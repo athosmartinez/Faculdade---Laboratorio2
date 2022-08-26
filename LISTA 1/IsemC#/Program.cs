@@ -19,9 +19,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
                 retorno1 = vogais(frase1);
                 retorno2 = consoantes(frase1);
-                //inteiros(ref frase1);
-                //reais(ref frase1);
-                 Console.WriteLine("{0} {1}", retorno1, retorno2);
+                retorno3 = inteiros(frase1);
+                retorno4 = reais(frase1);
+                 Console.WriteLine("{0} {1} {3} {4}", retorno1, retorno2, retorno3, retorno4);
             } while (!frase1.ToUpper().Equals("FIM"));
         }
 
@@ -77,8 +77,33 @@ namespace MyApp // Note: actual namespace depends on the project name.
             return "NAO";
         }
 
-        static void inteiros(ref string frase1) { }
+        static string inteiros(string frase1) {  
+            for (int i = 0; i < frase1.Length; i++)
+            {
+                if (
+                    frase1[i] == '0'
+                    || frase1[i] == '1'
+                    || frase1[i] == '2'
+                    || frase1[i] == '3'
+                    || frase1[i] == '4'
+                    || frase1[i] == '5'
+                    || frase1[i] == '6'
+                    || frase1[i] == '7'
+                    || frase1[i] == '8'
+                    || frase1[i] == '9'
+                )
+                {
+                    return "SIM";
+                }
+            }
+            return "NAO";
+        }
 
-        static void reais(ref string frase1) { }
+        static string  reais(string frase1) {  
+            if (frase1.Contains(",") || frase1.Contains(".")) {
+                return "SIM";
+            }
+            return "NAO";
+        }
     }
 }

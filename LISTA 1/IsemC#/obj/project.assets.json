@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\athos\\.nuget\\packages\\": {}
+    "/home/athos/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\LISTA 1\\IsemC#\\4.csproj",
+      "projectUniqueName": "/mnt/c/Users/athos/OneDrive/Documents/GitHub/Faculdade---Laboratorio2/Faculdade---Laboratorio2/LISTA 1/IsemC#/4.csproj",
       "projectName": "4",
-      "projectPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\LISTA 1\\IsemC#\\4.csproj",
-      "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\LISTA 1\\IsemC#\\obj\\",
+      "projectPath": "/mnt/c/Users/athos/OneDrive/Documents/GitHub/Faculdade---Laboratorio2/Faculdade---Laboratorio2/LISTA 1/IsemC#/4.csproj",
+      "packagesPath": "/home/athos/.nuget/packages/",
+      "outputPath": "/mnt/c/Users/athos/OneDrive/Documents/GitHub/Faculdade---Laboratorio2/Faculdade---Laboratorio2/LISTA 1/IsemC#/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/athos/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
       }
     }
   }
