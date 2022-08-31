@@ -7,11 +7,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             string linha = "";
-            do
+            while (linha != "FIM")
             {
                 linha = Console.ReadLine();
-            } while (linha != "FIM");
-            System.Console.WriteLine(épolindromo(linha, 0, linha.Length - 1));
+                if (linha != "FIM")
+                    System.Console.WriteLine(épolindromo(linha, 0, linha.Length - 1));
+            }
         }
 
         public static string épolindromo(string frase, int esquerda, int direita)
@@ -21,7 +22,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             {
                 if (frase[esquerda] == frase[direita])
                 {
-                    épolindromo(frase, esquerda + 1, direita - 1);
+                    épolindromo(frase, esquerda++, --direita);
                     resposta = true;
                 }
                 else

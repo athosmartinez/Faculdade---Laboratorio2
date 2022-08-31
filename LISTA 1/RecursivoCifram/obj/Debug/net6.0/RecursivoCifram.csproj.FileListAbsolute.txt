@@ -1,0 +1,15 @@
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\bin\Debug\net6.0\RecursivoCifram.exe
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\bin\Debug\net6.0\RecursivoCifram.deps.json
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\bin\Debug\net6.0\RecursivoCifram.runtimeconfig.json
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\bin\Debug\net6.0\RecursivoCifram.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\bin\Debug\net6.0\RecursivoCifram.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\RecursivoCifram.csproj.AssemblyReference.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\RecursivoCifram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\RecursivoCifram.AssemblyInfoInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\RecursivoCifram.AssemblyInfo.cs
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\RecursivoCifram.csproj.CoreCompileInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\RecursivoCifram.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\refint\RecursivoCifram.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\RecursivoCifram.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\RecursivoCifram.genruntimeconfig.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\LISTA 1\RecursivoCifram\obj\Debug\net6.0\ref\RecursivoCifram.dll
