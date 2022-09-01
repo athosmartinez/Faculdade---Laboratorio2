@@ -20,8 +20,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
         public static string Ciframento(string palavra, int i)
         {
             string cifrada = "";
-            while (i < palavra.Length)
-                cifrada += ((char)((int)palavra[i] + 3)) + Ciframento("" + palavra[i], ++i);
+            if (i > palavra.Length - 1)
+            {
+                return cifrada;
+            }
+            cifrada += ((char)((int)palavra[i] + 3)) + Ciframento(palavra, i + 1);
+
             return cifrada;
         }
     }

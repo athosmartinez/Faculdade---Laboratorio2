@@ -11,27 +11,29 @@ namespace MyApp // Note: actual namespace depends on the project name.
             {
                 linha = Console.ReadLine();
                 if (linha != "FIM")
-                    System.Console.WriteLine(épolindromo(linha, 0, linha.Length - 1));
+                    Console.WriteLine(epolindromo(linha, 0, linha.Length - 1));
             }
         }
 
-        public static string épolindromo(string frase, int esquerda, int direita)
+        public static string epolindromo(string frase, int esquerda, int direita)
         {
-            Boolean resposta = true;
-            while (esquerda < direita)
-            {
-                if (frase[esquerda] == frase[direita])
-                {
-                    épolindromo(frase, esquerda++, --direita);
-                    resposta = true;
-                }
-                else
-                {
-                    resposta = false;
-                    esquerda = direita;
-                }
+            
+        
+            if (esquerda>= direita){
+                return "SIM";
             }
-            return resposta ? "SIM" : "NAO";
+            
+            if (frase[esquerda] == frase[direita])
+            {
+                
+                return epolindromo(frase, esquerda+1, direita-1);
+                
+            }
+            else
+            {
+                return "NAO";
+            }
+            
         }
     }
 }
