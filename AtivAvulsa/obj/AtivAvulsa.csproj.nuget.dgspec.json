@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\AtivAvulsa\\AtivAvulsa.csproj": {}
+    "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\AtivAvulsa\\AtivAvulsa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\AtivAvulsa\\AtivAvulsa.csproj": {
+    "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\AtivAvulsa\\AtivAvulsa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\AtivAvulsa\\AtivAvulsa.csproj",
+        "projectUniqueName": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\AtivAvulsa\\AtivAvulsa.csproj",
         "projectName": "AtivAvulsa",
-        "projectPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\AtivAvulsa\\AtivAvulsa.csproj",
-        "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---Laboratorio2\\Faculdade---Laboratorio2\\AtivAvulsa\\obj\\",
+        "projectPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\AtivAvulsa\\AtivAvulsa.csproj",
+        "packagesPath": "C:\\Users\\0103249\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---Laboratorio2\\AtivAvulsa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\0103249\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
