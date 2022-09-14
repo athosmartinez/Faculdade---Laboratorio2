@@ -13,7 +13,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 palavra = Console.ReadLine();
                 if (palavra.ToUpper().Equals("FIM"))
                     continue;
-                for (int i = -0; i < palavra.Length; i++)
+                for (int i = 0; i < palavra.Length; i++)
                 {
                     int ASCII = (int)palavra[i];
 
