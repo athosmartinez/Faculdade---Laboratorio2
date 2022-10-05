@@ -1,0 +1,15 @@
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\bin\Debug\net6.0\Ciframento.exe
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\bin\Debug\net6.0\Ciframento.deps.json
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\bin\Debug\net6.0\Ciframento.runtimeconfig.json
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\bin\Debug\net6.0\Ciframento.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\bin\Debug\net6.0\Ciframento.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\Ciframento.csproj.AssemblyReference.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\Ciframento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\Ciframento.AssemblyInfoInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\Ciframento.AssemblyInfo.cs
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\Ciframento.csproj.CoreCompileInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\Ciframento.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\refint\Ciframento.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\Ciframento.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\Ciframento.genruntimeconfig.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Ciframento\obj\Debug\net6.0\ref\Ciframento.dll
