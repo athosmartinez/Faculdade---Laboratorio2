@@ -1,0 +1,15 @@
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\bin\Debug\net6.0\ISemCRecursivo.exe
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\bin\Debug\net6.0\ISemCRecursivo.deps.json
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\bin\Debug\net6.0\ISemCRecursivo.runtimeconfig.json
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\bin\Debug\net6.0\ISemCRecursivo.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\bin\Debug\net6.0\ISemCRecursivo.pdb
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\ISemCRecursivo.csproj.AssemblyReference.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\ISemCRecursivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\ISemCRecursivo.AssemblyInfoInputs.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\ISemCRecursivo.AssemblyInfo.cs
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\ISemCRecursivo.csproj.CoreCompileInputs.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\ISemCRecursivo.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\refint\ISemCRecursivo.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\ISemCRecursivo.pdb
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\ISemCRecursivo.genruntimeconfig.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\ISemCRecursivo\obj\Debug\net6.0\ref\ISemCRecursivo.dll
