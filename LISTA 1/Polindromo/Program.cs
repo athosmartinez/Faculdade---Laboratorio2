@@ -8,7 +8,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
             string polindromo,reverse;
             do
-            {   
+            {
                 polindromo = Console.ReadLine();
                 if(polindromo.ToUpper().Equals("FIM")) continue;
                 char[] ch = polindromo.ToCharArray();

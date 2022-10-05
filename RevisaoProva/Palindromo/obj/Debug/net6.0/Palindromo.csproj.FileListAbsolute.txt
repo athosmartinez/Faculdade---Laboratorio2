@@ -1,0 +1,15 @@
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\bin\Debug\net6.0\Palindromo.exe
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\bin\Debug\net6.0\Palindromo.deps.json
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\bin\Debug\net6.0\Palindromo.runtimeconfig.json
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\bin\Debug\net6.0\Palindromo.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\bin\Debug\net6.0\Palindromo.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\Palindromo.csproj.AssemblyReference.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\Palindromo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\Palindromo.AssemblyInfoInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\Palindromo.AssemblyInfo.cs
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\Palindromo.csproj.CoreCompileInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\Palindromo.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\refint\Palindromo.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\Palindromo.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\Palindromo.genruntimeconfig.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---Laboratorio2\RevisaoProva\Palindromo\obj\Debug\net6.0\ref\Palindromo.dll

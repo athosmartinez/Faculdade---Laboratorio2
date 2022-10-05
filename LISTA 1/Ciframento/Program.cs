@@ -11,7 +11,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             do
             {
                 palavra = Console.ReadLine();
-                if (palavra.ToUpper().Equals("FIM"))
+                if (palavra == "FIM")
                     continue;
                 for (int i = 0; i < palavra.Length; i++)
                 {
