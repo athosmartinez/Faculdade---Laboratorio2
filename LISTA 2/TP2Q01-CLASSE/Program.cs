@@ -21,10 +21,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
             return Nascimento;
         }
-        public void SetNascimento(DateTime nascimento)
-        {
-            this.Nascimento = Nascimento;
-        }
+
 
         public void Ler(string entrada)
         {
@@ -33,7 +30,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             string divisaoEsquerda = entrada.Split("[")[0];
             string divisaoDireita = entrada.Split("[")[1];
             string[] dividido = divisaoEsquerda.Split(",");
-
+       
             this.Nome = dividido[1];
             this.Foto = dividido[2];
             this.Id = Int32.Parse(dividido[5]);
@@ -42,29 +39,30 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
 
             string[] Dados = dividido[3].Split("/");
-            SetNascimento(new DateTime(Int32.Parse(Dados[2]), Int32.Parse(Dados[1]), Int32.Parse(Dados[0])));
+            this.Nascimento = (new DateTime(Int32.Parse(Dados[2]), Int32.Parse(Dados[1]), Int32.Parse(Dados[0])));
 
             // Divisoes em Array[] - Parte direita
 
             string[] dividido2 = divisaoDireita.Substring(0, divisaoDireita.IndexOf("]")).Split(",");
             for (int i = 0; i < dividido2.Length; i++)
             {
-                this.Times[i] = Int32.Parse(dividido2[i]);
+                this.Times[i] = Convert.ToInt32(dividido2[i]);
             }
         }
         public void Imprimir()
         {
-            string data = GetNascimento().ToString("dd/MM/yyyy");
-            string newData = data.Substring(0, 2).TrimStart('0') + data.Substring(2, data.Length - 2);
+            string data = this.Nascimento.ToString("dd/MM/yyyy");
+            string newData = data.Substring(0, 2).TrimStart('0') + data.Substring(2, data.Length - 3);
             string saida = "";
-            string timeP ="(";
+       
             for (int i = 0; i < 30; i++)
             {
-                if (Times[i] != 0)
+                if (this.Times[i] != 0)
                 {
-                    saida += this.Times[i] + (i == Times.Length - 1 ? "" : ",");
+                    saida += this.Times[i] + (i == this.Times.Length - 2 ? " " : ",");
                 }
             }
+           
             Console.WriteLine($"{this.Id} {this.Nome} {newData} {this.Foto} ({saida})");
         }
     }
@@ -81,6 +79,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 Jogadores jogador = new Jogadores();
                 jogador.Ler(palavra);
                 jogador.Imprimir();
+                
 
             } while (palavra != "FIM");
         }
