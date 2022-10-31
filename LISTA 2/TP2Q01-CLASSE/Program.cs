@@ -30,7 +30,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             string divisaoEsquerda = entrada.Split("[")[0];
             string divisaoDireita = entrada.Split("[")[1];
             string[] dividido = divisaoEsquerda.Split(",");
-       
+
             this.Nome = dividido[1];
             this.Foto = dividido[2];
             this.Id = Int32.Parse(dividido[5]);
@@ -52,17 +52,18 @@ namespace MyApp // Note: actual namespace depends on the project name.
         public void Imprimir()
         {
             string data = this.Nascimento.ToString("dd/MM/yyyy");
-            string newData = data.Substring(0, 2).TrimStart('0') + data.Substring(2, data.Length - 3);
+            string newData = data.Substring(0, 2).TrimStart('0') + data.Substring(2, data.Length - 2);
             string saida = "";
-       
-            for (int i = 0; i < 30; i++)
+           
+
+            for (int i = 0; i < Times.Length; i++)
             {
                 if (this.Times[i] != 0)
                 {
-                    saida += this.Times[i] + (i == this.Times.Length - 2 ? " " : ",");
+                    saida += this.Times[i] + (i == this.Times.Length - 1 ? "" : ",");
                 }
             }
-           
+
             Console.WriteLine($"{this.Id} {this.Nome} {newData} {this.Foto} ({saida})");
         }
     }
@@ -79,7 +80,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 Jogadores jogador = new Jogadores();
                 jogador.Ler(palavra);
                 jogador.Imprimir();
-                
+
 
             } while (palavra != "FIM");
         }
