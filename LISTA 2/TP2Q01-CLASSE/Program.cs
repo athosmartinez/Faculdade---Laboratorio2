@@ -60,7 +60,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             {
                 if (this.Times[i] != 0)
                 {
-                    saida += this.Times[i] + (i == this.Times.Length - 1 ? "" : ",");
+                    saida += (i == 0 ? "" : ", ") + this.Times[i];
                 }
             }
 
