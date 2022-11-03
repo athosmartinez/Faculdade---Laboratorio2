@@ -6,35 +6,34 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            JogadorPrin[] jogadores = new JogadorPrin[30];
-            int contador = Preencher(jogadores);
-            string palavra = "";
-            do
-            {
-                palavra = Console.ReadLine();
-                Console.WriteLine(PesquisaSenque(jogadores, palavra, contador));
-            } while (palavra != "FIM");
-        }
-        public static int Preencher(JogadorPrin[] jogadores)
-        {
-            string palavra = "";
             int contador = 0;
-            do
-            {
-                palavra = Console.ReadLine();
+            string dados = "", findNome = "";
+            JogadorPrin[] jogadores = new JogadorPrin[30];
+
+            // Insere dados
+            do {
+                dados = Console.ReadLine();
+                if(dados.ToUpper().Equals("FIM")) continue;
                 JogadorPrin jogad = new JogadorPrin();
-                jogad.Ler(palavra);
+                jogad.Ler(dados);
                 jogadores[contador] = jogad;
                 contador++;
-            } while (palavra != "FIM");
-            return contador;
+            } while (!dados.ToUpper().Equals("FIM"));
+            
+            // Procura Nome
+            do {
+                findNome = Console.ReadLine();
+                if(findNome.ToUpper().Equals("FIM")) continue;
+
+                Console.WriteLine(PesquisaSenque(jogadores, findNome, contador));
+            } while (!findNome.ToUpper().Equals("FIM"));
         }
 
-        public static string PesquisaSenque(JogadorPrin[] jogadores, string palavra, int contador)
+        public static string PesquisaSenque(JogadorPrin[] jogadores, string nome, int contador)
         {
             for (int i = 0; i < contador; i++)
             {
-                if (jogadores[i].GetNome() == palavra)
+                if (jogadores[i].Nome == nome)
                 {
                     return "SIM";
                 }
@@ -49,81 +48,38 @@ namespace MyApp
         public DateTime Nascimento;
         public int Id;
         public int[] Times;
-        public JogadorPrin()
-        {
-
-        }
-        public int GetId()
-        {
-            return Id;
-        }
-        public void SetId(int Id)
-        {
-            this.Id = Id;
-        }
-        public void SetNome(string Nome)
-        {
-            this.Nome = Nome;
-        }
-        public string GetNome()
-        {
-            return Nome;
-        }
-        public string GetFoto()
-        {
-            return Foto;
-        }
-        public void SetFoto(string Foto)
-        {
-            this.Foto = Foto;
-        }
-        public DateTime GetNascimento()
-        {
-            return Nascimento;
-        }
-        public void SetNascimento(DateTime Nascimento)
-        {
-            this.Nascimento = Nascimento;
-        }
-        public int[] GetTimes()
-        {
-            return Times;
-        }
-        public void SetTimes(int[] Times)
-        {
-            this.Times = Times;
-        }
+        public JogadorPrin() {}
 
         public void Ler(string entrada)
         {
             // Divisoes em Array[] - Parte esquerda
-            string[] divisaoEsquerda = entrada.Split("[");
-            string[] divisaoDireita = divisaoEsquerda[0].Split(",");
+            string[] divisaoEsquerda = entrada.Split('[');
+            string[] divisaoDireita = divisaoEsquerda[0].Split(',');
 
-            SetNome(divisaoDireita[1]);
-            SetFoto(divisaoDireita[2]);
-            SetId(Convert.ToInt32(divisaoDireita[5]));
+            Nome = divisaoDireita[1];
+            Foto = divisaoDireita[2];
+            Id = Convert.ToInt32(divisaoDireita[5]);
 
             // Divisoes da data em partes
-            string[] Dados = divisaoDireita[3].Split("/");
-            SetNascimento(new DateTime(Int32.Parse(Dados[2]), Int32.Parse(Dados[1]), Int32.Parse(Dados[0])));
+            string[] Dados = divisaoDireita[3].Split('/');
+            Nascimento = new DateTime(Int32.Parse(Dados[2]), Int32.Parse(Dados[1]), Int32.Parse(Dados[0]));
             // Divisoes em Array[] - Parte direita
 
-            string[] timesDig = divisaoEsquerda[1].Substring(0, divisaoEsquerda[1].IndexOf("]")).Split(",");
+            string[] timesDig = divisaoEsquerda[1].Substring(0, divisaoEsquerda[1].IndexOf(']')).Split(',');
 
             int[] times = new int[timesDig.Length];
             for (int i = 0; i < times.Length; i++)
             {
                 times[i] = Convert.ToInt32(timesDig[i]);
             }
-            SetTimes(times);
+            Times = times;
         }
         public void Imprimir()
         {
             string data = this.Nascimento.ToString("dd/MM/yyyy");
             string newData = data.Substring(0, 2).TrimStart('0') + data.Substring(2, data.Length - 2);
 
-            int[] t = GetTimes();
+            int[] t = Times;
             string times = "(";
 
 
