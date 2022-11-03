@@ -72,6 +72,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             string palavra = "";
+            int contador = Preencher(Jogadores);
             do
             {
                 palavra = Console.ReadLine();
@@ -80,7 +81,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 Jogadores jogador = new Jogadores();
                 jogador.Ler(palavra);
                 jogador.Imprimir();
-
+                Console.WriteLine(PesquisaSequen(Jogadores, palavra, contador));
 
             } while (palavra != "FIM");
         }

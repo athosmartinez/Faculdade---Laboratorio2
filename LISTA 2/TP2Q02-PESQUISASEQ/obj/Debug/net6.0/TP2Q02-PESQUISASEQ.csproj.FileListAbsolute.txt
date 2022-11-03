@@ -1,0 +1,15 @@
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\bin\Debug\net6.0\TP2Q02-PESQUISASEQ.exe
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\bin\Debug\net6.0\TP2Q02-PESQUISASEQ.deps.json
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\bin\Debug\net6.0\TP2Q02-PESQUISASEQ.runtimeconfig.json
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\bin\Debug\net6.0\TP2Q02-PESQUISASEQ.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\bin\Debug\net6.0\TP2Q02-PESQUISASEQ.pdb
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\TP2Q02-PESQUISASEQ.csproj.AssemblyReference.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\TP2Q02-PESQUISASEQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\TP2Q02-PESQUISASEQ.AssemblyInfoInputs.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\TP2Q02-PESQUISASEQ.AssemblyInfo.cs
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\TP2Q02-PESQUISASEQ.csproj.CoreCompileInputs.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\TP2Q02-PESQUISASEQ.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\refint\TP2Q02-PESQUISASEQ.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\TP2Q02-PESQUISASEQ.pdb
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\TP2Q02-PESQUISASEQ.genruntimeconfig.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---Laboratorio2\LISTA 2\TP2Q02-PESQUISASEQ\obj\Debug\net6.0\ref\TP2Q02-PESQUISASEQ.dll

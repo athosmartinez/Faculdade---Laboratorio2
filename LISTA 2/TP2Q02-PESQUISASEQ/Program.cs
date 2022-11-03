@@ -2,87 +2,90 @@
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
-
-
     class Jogadores
     {
-        public string Nome;
-        public string Foto;
-        public DateTime Nascimento;
-        public int Id;
-        public int[] Times;
+        public String nome;
+        public DateTime nascimento;
+        public String foto;
+        public int id;
+        public int[] times;
+
 
         public Jogadores()
         {
-            this.Times = new int[30];
+            this.nome = "";
+            this.nascimento = new DateTime(1111, 1, 1);
+            this.foto = "";
+            this.id = 0;
+            this.times = new int[] { 000, 000, 000, 000 };
         }
 
-        public DateTime GetNascimento()
+        void ler(String entrada)
         {
-            return Nascimento;
-        }
+            String[] entradadiv = entrada.Split(',');
+            String[] datas = entradadiv[3].Split('/');
 
-
-        public void Ler(string entrada)
-        {
-            // Divisoes em Array[] - Parte esquerda
-
-            string divisaoEsquerda = entrada.Split("[")[0];
-            string divisaoDireita = entrada.Split("[")[1];
-            string[] dividido = divisaoEsquerda.Split(",");
-
-            this.Nome = dividido[1];
-            this.Foto = dividido[2];
-            this.Id = Int32.Parse(dividido[5]);
-
-            // Divisoes da data em partes 
-
-
-            string[] Dados = dividido[3].Split("/");
-            this.Nascimento = (new DateTime(Int32.Parse(Dados[2]), Int32.Parse(Dados[1]), Int32.Parse(Dados[0])));
-
-            // Divisoes em Array[] - Parte direita
-
-            string[] dividido2 = divisaoDireita.Substring(0, divisaoDireita.IndexOf("]")).Split(",");
-            for (int i = 0; i < dividido2.Length; i++)
+            this.nome = entradadiv[1];
+            this.foto = entradadiv[2];
+            this.id = int.Parse(entradadiv[5]);
+            this.nascimento = new DateTime(int.Parse(datas[2]), int.Parse(datas[1]), int.Parse(datas[0]));
+            this.times = new int[entradadiv.Length - 6];
+            for (int i = 6, j = 0; i < entradadiv.Length; i++, j++)
             {
-                this.Times[i] = Convert.ToInt32(dividido2[i]);
+                this.times[j] = int.Parse(entradadiv[i].Replace("[", "").Replace("]", "").Replace("\"", ""));
             }
         }
-        public void Imprimir()
-        {
-            string data = this.Nascimento.ToString("dd/MM/yyyy");
-            string newData = data.Substring(0, 2).TrimStart('0') + data.Substring(2, data.Length - 2);
-            string saida = "";
-           
 
-            for (int i = 0; i < Times.Length; i++)
+        void imprimir()
+        {
+            Console.Write(this.id + " ");
+            Console.Write(this.nome + " ");
+            Console.Write(this.nascimento.ToString("d/MM/yyyy") + " ");
+            Console.Write(this.foto + " ");
+
+            Console.Write("(");
+            for (int i = 0; i < this.times.Length; i++)
             {
-                if (this.Times[i] != 0)
+                Console.Write(this.times[i]);
+                if (i < this.times.Length - 1)
                 {
-                    saida += (i == 0 ? "" : ", ") + this.Times[i];
+                    Console.Write(", ");
                 }
             }
-
-            Console.WriteLine($"{this.Id} {this.Nome} {newData} {this.Foto} ({saida})");
+            Console.Write(")");
+            Console.WriteLine();
         }
-    }
-    internal class Program
-    {
+        static String pesquisaSequen(Jogadores[] jogadores, String nome, int j)
+        {
+            Boolean resposta = false;
+            int jog = jogadores.Length - j;
+            for (int i = 0; i < jog; i++)
+            {
+                if (jogadores[i].nome == nome)
+                {
+                    resposta = true;
+                    i = jog;
+                }
+            }
+            return resposta ? "SIM" : "NAO";
+        }
+
         static void Main(string[] args)
         {
-            string palavra = "";
-            do
-            {
-                palavra = Console.ReadLine();
-                if (palavra == "FIM")
-                    continue;
-                Jogadores jogador = new Jogadores();
-                jogador.Ler(palavra);
-                jogador.Imprimir();
+            int i = 0;
+            String entrada = Console.ReadLine();
+            Jogadores[] jogador = new Jogadores[30];
+            while (entrada != "FIM") ;
+            jogador[i] = new Jogadores();
+            jogador[i].ler(entrada);
+            entrada = Console.ReadLine();
+            i++;
 
-
-            } while (palavra != "FIM");
+            entrada = Console.ReadLine();
+            while (entrada != "FIM") ;
+            Console.WriteLine(pesquisaSequen(jogador, entrada, i));
+            entrada = Console.ReadLine();
         }
     }
 }
+
