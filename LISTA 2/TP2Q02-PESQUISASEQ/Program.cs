@@ -12,10 +12,9 @@ namespace MyApp
             do
             {
                 palavra = Console.ReadLine();
-                if (palavra.ToUpper().Equals("FIM"))
-                    continue;
+               
                 Console.WriteLine(PesquisaSenque(jogadores, palavra, contador));
-            } while (!palavra.ToUpper().Equals("FIM"));
+            } while (palavra != "FIM");
         }
         public static int Preencher(JogadorPrin[] jogadores)
         {
@@ -100,7 +99,7 @@ namespace MyApp
 
         public void Ler(string entrada)
         {
-            // Divisoes em Array[] - Parte esquerda
+            // Divisoes em Array[]
             string[] divisaoEsquerda = entrada.Split("[");
             string[] divisaoDireita = divisaoEsquerda[0].Split(",");
 
@@ -108,10 +107,12 @@ namespace MyApp
             SetFoto(divisaoDireita[2]);
             SetId(Convert.ToInt32(divisaoDireita[5]));
 
-            // Divisoes da data em partes
+            // Divisão da data em partes 
+
             string[] Dados = divisaoDireita[3].Split("/");
             SetNascimento(new DateTime(Int32.Parse(Dados[2]), Int32.Parse(Dados[1]), Int32.Parse(Dados[0])));
-            // Divisoes em Array[] - Parte direita
+
+            // Separação dos times
 
             string[] timesDig = divisaoEsquerda[1].Substring(0, divisaoEsquerda[1].IndexOf("]")).Split(",");
 
