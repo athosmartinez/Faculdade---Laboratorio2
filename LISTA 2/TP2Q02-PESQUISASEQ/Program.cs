@@ -12,10 +12,8 @@ namespace MyApp
             do
             {
                 palavra = Console.ReadLine();
-                if (palavra.ToUpper().Equals("FIM"))
-                    continue;
                 Console.WriteLine(PesquisaSenque(jogadores, palavra, contador));
-            } while (!palavra.ToUpper().Equals("FIM"));
+            } while (palavra != "FIM");
         }
         public static int Preencher(JogadorPrin[] jogadores)
         {
@@ -24,13 +22,11 @@ namespace MyApp
             do
             {
                 palavra = Console.ReadLine();
-                if (palavra.ToUpper().Equals("FIM"))
-                    continue;
                 JogadorPrin jogad = new JogadorPrin();
                 jogad.Ler(palavra);
                 jogadores[contador] = jogad;
                 contador++;
-            } while (!palavra.ToUpper().Equals("FIM"));
+            } while (palavra != "FIM");
             return contador;
         }
 
