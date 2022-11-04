@@ -17,14 +17,13 @@ namespace MyApp
                 JogadorPrin jogad = new JogadorPrin();
                 jogad.Ler(dados);
                 jogadores[contador] = jogad;
-                contador++;
+                contador++; 
             } while (!dados.ToUpper().Equals("FIM"));
             // Procura Nome
             do
             {
                 findNome = Console.ReadLine();
                 if (findNome.ToUpper().Equals("FIM")) continue;
-
                 Console.WriteLine(PesquisaBinaria(jogadores, findNome, contador));
             } while (!findNome.ToUpper().Equals("FIM"));
         }
