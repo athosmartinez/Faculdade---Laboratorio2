@@ -1,57 +1,80 @@
-﻿using System;
+using System;
 
 namespace MyApp
 {
+
     class Program
     {
         static void Main(string[] args)
         {
-            int contador = 0;
-            string dados = "", findNome = "";
-            JogadorPrin[] jogadores = new JogadorPrin[30];
+            Pilha pilha = new Pilha();
+            string dados = "";
+
             // Insere dados
             do
             {
                 dados = Console.ReadLine();
                 if (dados.ToUpper().Equals("FIM")) continue;
-                JogadorPrin jogad = new JogadorPrin();
-                jogad.Ler(dados);
-                jogadores[contador] = jogad;
-                contador++;
+                JogadorPrin jogador = new JogadorPrin();
+                jogador.Ler(dados);
+                pilha.Inserir(jogador);
             } while (!dados.ToUpper().Equals("FIM"));
-            // Procura Nome
-            do
-            {
-                findNome = Console.ReadLine();
-                if (findNome.ToUpper().Equals("FIM")) continue;
 
-                Console.WriteLine(PesquisaBinaria(jogadores, findNome, contador));
-            } while (!findNome.ToUpper().Equals("FIM"));
-        }
-        public static string PesquisaBinaria(JogadorPrin[] jogadores, string nome, int contador)
-        {
-            int esquerda = 0;
-            int direita = contador - 1;
-            do
+            int quantity = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < quantity; i++)
             {
-                int meio = (esquerda + direita) / 2;
-                if (jogadores[meio].Nome == nome)
+                string data = Console.ReadLine();
+                JogadorPrin jogad = new JogadorPrin();
+
+                if (data[0] == 'I')
                 {
-                    return "SIM";
+                    jogad.Ler(data.Substring(2));
+                    pilha.Inserir(jogad);
                 }
-                else if (String.Compare(nome, jogadores[meio].Nome) > 0)
+                else if (data[0] == 'R')
                 {
-                    esquerda = meio + 1;
+                    pilha.Remover();
                 }
-                else
-                {
-                    direita = meio - 1;
-                }
-            } while (esquerda <= direita);
-            return "NAO";
+            }
+
+            for (int i = 0; i < pilha.Contador; i++)
+            {
+                pilha.Jogadores[i].Imprimir();
+            }
         }
     }
-    class JogadorPrin
+
+    public class Pilha
+    {
+        public JogadorPrin[] Jogadores;
+        public int Contador;
+
+        public Pilha()
+        {
+            Jogadores = new JogadorPrin[20];
+            Contador = 0;
+        }
+
+        public void Inserir(JogadorPrin jogador)
+        {
+            if (Contador >= Jogadores.Length)
+                throw new Exception("Erro");
+
+            Jogadores[Contador] = jogador;
+            Contador++;
+        }
+
+        public JogadorPrin Remover()
+        {
+            if (Contador == 0)
+                throw new Exception("Erro");
+
+            return Jogadores[Contador--];
+        }
+    }
+
+    public class JogadorPrin
     {
         public string Nome;
         public string Foto;
@@ -67,7 +90,7 @@ namespace MyApp
 
             Nome = divisaoDireita[1];
             Foto = divisaoDireita[2];
-            Id = Convert.ToInt32(divisaoDireita[5]);
+            Id = int.Parse(divisaoDireita[5]);
 
             // Divisoes da data em partes
             string[] Dados = divisaoDireita[3].Split('/');
@@ -79,7 +102,7 @@ namespace MyApp
             int[] times = new int[timesDig.Length];
             for (int i = 0; i < times.Length; i++)
             {
-                times[i] = Convert.ToInt32(timesDig[i]);
+                times[i] = int.Parse(timesDig[i]);
             }
             Times = times;
         }
@@ -102,5 +125,4 @@ namespace MyApp
             Console.WriteLine($"{this.Id} {this.Nome} {newData} {this.Foto} {times}");
         }
     }
-
 }

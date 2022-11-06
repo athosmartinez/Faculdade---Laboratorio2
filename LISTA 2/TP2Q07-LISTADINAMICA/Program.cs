@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Collections;
 
 namespace MyApp
 {
@@ -6,9 +7,10 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            int contador = 0;
-            string dados = "", findNome = "";
-            JogadorPrin[] jogadores = new JogadorPrin[30];
+            ArrayList lista = new ArrayList(20);
+
+            string dados = "";
+
             // Insere dados
             do
             {
@@ -16,42 +18,53 @@ namespace MyApp
                 if (dados.ToUpper().Equals("FIM")) continue;
                 JogadorPrin jogad = new JogadorPrin();
                 jogad.Ler(dados);
-                jogadores[contador] = jogad;
-                contador++;
+                lista.Add(jogad);
             } while (!dados.ToUpper().Equals("FIM"));
-            // Procura Nome
-            do
-            {
-                findNome = Console.ReadLine();
-                if (findNome.ToUpper().Equals("FIM")) continue;
 
-                Console.WriteLine(PesquisaBinaria(jogadores, findNome, contador));
-            } while (!findNome.ToUpper().Equals("FIM"));
-        }
-        public static string PesquisaBinaria(JogadorPrin[] jogadores, string nome, int contador)
-        {
-            int esquerda = 0;
-            int direita = contador - 1;
-            do
+            int quantity = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < quantity; i++)
             {
-                int meio = (esquerda + direita) / 2;
-                if (jogadores[meio].Nome == nome)
+                string data = Console.ReadLine();
+                JogadorPrin jogador = new JogadorPrin();
+
+                if (data.Substring(0, 2) == "II")
                 {
-                    return "SIM";
+                    jogador.Ler(data.Substring(3));
+                    lista.Insert(0, jogador);
                 }
-                else if (String.Compare(nome, jogadores[meio].Nome) > 0)
+                else if (data.Substring(0, 2) == "IF")
                 {
-                    esquerda = meio + 1;
+                    jogador.Ler(data.Substring(3));
+                    lista.Add(jogador);
                 }
-                else
+                else if (data.Substring(0, 2) == "I*")
                 {
-                    direita = meio - 1;
+                    jogador.Ler(data.Substring(3));
+                    lista.Insert(int.Parse(data.Substring(3).Substring(0, 2).Replace(" ", "")), jogador);
                 }
-            } while (esquerda <= direita);
-            return "NAO";
+                else if (data.Substring(0, 2) == "RI")
+                {
+                    lista.RemoveAt(0);
+                }
+                else if (data.Substring(0, 2) == "RF")
+                {
+                    lista.RemoveAt(lista.Count - 1);
+                }
+                else if (data.Substring(0, 2) == "R*")
+                {
+                    lista.RemoveAt(int.Parse(data.Substring(3).Replace(" ", "")));
+                }
+            }
+
+            foreach (JogadorPrin jogad in lista)
+            {
+                jogad.Imprimir();
+            }
         }
     }
-    class JogadorPrin
+
+    public class JogadorPrin
     {
         public string Nome;
         public string Foto;
@@ -67,7 +80,7 @@ namespace MyApp
 
             Nome = divisaoDireita[1];
             Foto = divisaoDireita[2];
-            Id = Convert.ToInt32(divisaoDireita[5]);
+            Id = int.Parse(divisaoDireita[5]);
 
             // Divisoes da data em partes
             string[] Dados = divisaoDireita[3].Split('/');
@@ -79,7 +92,7 @@ namespace MyApp
             int[] times = new int[timesDig.Length];
             for (int i = 0; i < times.Length; i++)
             {
-                times[i] = Convert.ToInt32(timesDig[i]);
+                times[i] = int.Parse(timesDig[i]);
             }
             Times = times;
         }
@@ -102,5 +115,4 @@ namespace MyApp
             Console.WriteLine($"{this.Id} {this.Nome} {newData} {this.Foto} {times}");
         }
     }
-
 }
