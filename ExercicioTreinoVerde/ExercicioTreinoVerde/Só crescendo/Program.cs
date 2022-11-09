@@ -6,30 +6,40 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            ArrayInt[] inteiros = new ArrayInt[50];
-        }
-        class ArrayInt
-        {
-            int numeroTeste;
-            int numeroTamanho;
-        }
-
-        public void Ler(string nTeste, string nTamanho)
-        {
-            nTeste = Console.ReadLine();
-            nTamanho = Console.ReadLine();
-            int numeroTeste = Convert.ToInt32(nTeste);
-            int numeroTamanho = Convert.ToInt32(nTamanho);
-            
-            for (int i = 0; i < numeroTeste; i++)
+            int nTestes, tArray;
+            nTestes = int.Parse(Console.Readline());
+            while (nTestes > 0)
             {
-                for (int j = 0; j < numeroTamanho; j++)
+                tArray = int.Parse(Console.Readline());
+                string[] numeros = Console.Readline().Split(' ');
+                int[] array = new int[tArray];
+                for (int i = 0; i < tArray; i++)
                 {
-                    inteiros[i].numeroTeste = numeroTeste;
-                    inteiros[i].numeroTamanho = numeroTamanho;
+                    array[i] = int.Parse(numeros[i]);
+                }
+                Ordenar(tArray);
+                for (int i = 0; i < tArray; i++)
+                {
+                    Console.WriteLine(array[i] < array[i + 1] ? "SIM" : "NAO");
                 }
             }
+            static int[] OrdenarBubbleSort(int[] array)
+            {
+                int aux;
+                for (int posicao = 1; posicao < array.Length; posicao++)
+                {
+                    for (int difposicao = 0; posicao < array.Length - 1; difposicao--)
+                    {
+                        if (array[difposicao] > array[posicao])
+                        {
+                            int aux = array[posicao];
+                            array[posicao] = array[difposicao];
+                            array[difposicao] = aux;
+                        }
+                    }
+                }
+                return array;
+            }
         }
-
     }
 }

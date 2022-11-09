@@ -1,0 +1,5 @@
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Só crescendo\obj\Debug\net6.0\Só crescendo.csproj.AssemblyReference.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Só crescendo\obj\Debug\net6.0\Só crescendo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Só crescendo\obj\Debug\net6.0\Só crescendo.AssemblyInfoInputs.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Só crescendo\obj\Debug\net6.0\Só crescendo.AssemblyInfo.cs
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Só crescendo\obj\Debug\net6.0\Só crescendo.csproj.CoreCompileInputs.cache
