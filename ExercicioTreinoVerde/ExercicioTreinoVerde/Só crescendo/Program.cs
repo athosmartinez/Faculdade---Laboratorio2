@@ -1,45 +1,67 @@
 ﻿using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+
+
+
+namespace SóCrescendo // Note: actual namespace depends on the project name.
 {
+
     internal class Program
     {
         static void Main(string[] args)
         {
+            
+            Boolean resposta = true;
             int nTestes, tArray;
-            nTestes = int.Parse(Console.Readline());
+            //string s = Console.ReadLine();
+            nTestes = int.Parse(Console.ReadLine());
             while (nTestes > 0)
             {
-                tArray = int.Parse(Console.Readline());
-                string[] numeros = Console.Readline().Split(' ');
+                tArray = int.Parse(Console.ReadLine());
+                string[] numeros = Console.ReadLine().Split(' ');
                 int[] array = new int[tArray];
                 for (int i = 0; i < tArray; i++)
                 {
                     array[i] = int.Parse(numeros[i]);
                 }
-                Ordenar(tArray);
-                for (int i = 0; i < tArray; i++)
+                OrdenarBubbleSort(array);
+                for (int i = 0; i < array.Length - 1; i++)
                 {
-                    Console.WriteLine(array[i] < array[i + 1] ? "SIM" : "NAO");
-                }
-            }
-            static int[] OrdenarBubbleSort(int[] array)
-            {
-                int aux;
-                for (int posicao = 1; posicao < array.Length; posicao++)
-                {
-                    for (int difposicao = 0; posicao < array.Length - 1; difposicao--)
+                    if (array[i] == array[i + 1])
                     {
-                        if (array[difposicao] > array[posicao])
-                        {
-                            int aux = array[posicao];
-                            array[posicao] = array[difposicao];
-                            array[difposicao] = aux;
-                        }
+                        resposta = false;
                     }
                 }
-                return array;
+                if (resposta == true)
+                {
+                    Console.WriteLine("SIM");
+                }
+                else
+                {
+                    Console.WriteLine("NAO");
+                }
             }
+           
+        }
+        static void OrdenarBubbleSort(int[] array)
+        {
+            for (int posicao = 1; posicao < array.Length; posicao++)
+            {
+                for (int difposicao = 0; difposicao < array.Length - 1; difposicao++)
+                {
+                    if (array[posicao] < array[difposicao])
+                    {
+                        int aux = array[posicao];
+                        array[posicao] = array[difposicao];
+                        array[difposicao] = aux;
+                    }
+                }
+            }
+
         }
     }
 }
