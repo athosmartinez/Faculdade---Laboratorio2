@@ -15,14 +15,14 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 int pessoas = int.Parse(pessoasEdiff[0]);
                 int dif = int.Parse(pessoasEdiff[1]);
                 string[] tempAlturas = Console.ReadLine().Split(' ');
-                int[] alturas = new int[pessoas];
-                for (int i = 0; i < tempAlturas.Length; i++)
+                int[] alturas = new int[pessoas * 2];
+                for (int i = 0; i < pessoas; i++)
                 {
                     alturas[i] = int.Parse(tempAlturas[i]);
                 }
-                for (int i = 0; i < alturas.Length; i++)
+                for (int i = 0; i < alturas.Length - 1; i++)
                 {
-                    if (alturas[pessoas / 2] - alturas[i] >= dif)
+                    if (alturas[(alturas.Length / 2) + i] - alturas[i] >= dif)
                     {
                         respFim = true;
                     }

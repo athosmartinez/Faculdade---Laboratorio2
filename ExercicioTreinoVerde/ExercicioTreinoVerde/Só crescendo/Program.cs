@@ -4,9 +4,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-
-
-
 namespace SóCrescendo // Note: actual namespace depends on the project name.
 {
 
@@ -14,13 +11,14 @@ namespace SóCrescendo // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            
-            Boolean resposta = true;
-            int nTestes, tArray;
+
+            int nTestes;
             //string s = Console.ReadLine();
             nTestes = int.Parse(Console.ReadLine());
             while (nTestes > 0)
             {
+                Boolean resposta = true;
+                int tArray;
                 tArray = int.Parse(Console.ReadLine());
                 string[] numeros = Console.ReadLine().Split(' ');
                 int[] array = new int[tArray];
@@ -31,9 +29,14 @@ namespace SóCrescendo // Note: actual namespace depends on the project name.
                 OrdenarBubbleSort(array);
                 for (int i = 0; i < array.Length - 1; i++)
                 {
-                    if (array[i] == array[i + 1])
+                    if (array[i] < array[i + 1])
+                    {
+                        resposta = true;
+                    }
+                    else
                     {
                         resposta = false;
+                        i = array.Length - 1;
                     }
                 }
                 if (resposta == true)
@@ -44,10 +47,11 @@ namespace SóCrescendo // Note: actual namespace depends on the project name.
                 {
                     Console.WriteLine("NAO");
                 }
+                nTestes--;
             }
-           
+
         }
-        static void OrdenarBubbleSort(int[] array)
+        public static void OrdenarBubbleSort(int[] array)
         {
             for (int posicao = 1; posicao < array.Length; posicao++)
             {
