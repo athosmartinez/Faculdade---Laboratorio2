@@ -1,0 +1,15 @@
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\bin\Debug\net6.0\Max o Fotografo.exe
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\bin\Debug\net6.0\Max o Fotografo.deps.json
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\bin\Debug\net6.0\Max o Fotografo.runtimeconfig.json
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\bin\Debug\net6.0\Max o Fotografo.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\bin\Debug\net6.0\Max o Fotografo.pdb
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\Max o Fotografo.csproj.AssemblyReference.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\Max o Fotografo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\Max o Fotografo.AssemblyInfoInputs.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\Max o Fotografo.AssemblyInfo.cs
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\Max o Fotografo.csproj.CoreCompileInputs.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\Max o Fotografo.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\refint\Max o Fotografo.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\Max o Fotografo.pdb
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\Max o Fotografo.genruntimeconfig.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\ExercicioTreinoVerde\ExercicioTreinoVerde\Max o Fotografo\obj\Debug\net6.0\ref\Max o Fotografo.dll
