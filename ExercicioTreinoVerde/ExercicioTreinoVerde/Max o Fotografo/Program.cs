@@ -1,16 +1,16 @@
 ﻿using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace MyApp
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            int respostas = int.Parse(Console.ReadLine());
 
+            int respostas = int.Parse(Console.ReadLine());
             while (respostas > 0)
             {
-                bool respFim;
+                bool respFim = true;
                 string[] pessoasEdiff = Console.ReadLine().Split(' ');
                 int pessoas = int.Parse(pessoasEdiff[0]);
                 int dif = int.Parse(pessoasEdiff[1]);
@@ -20,20 +20,17 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 {
                     alturas[i] = int.Parse(tempAlturas[i]);
                 }
-                for (int i = 0; i < alturas.Length - 1; i++)
+                OrdenarBubble(alturas);
+                for (int i = 0; i < pessoas; i++)
                 {
-                    if (alturas[((pessoas * 2) / 2) + i] - alturas[i] >= dif)
-                    {
-                        respFim = true;
-                    }
-                    else
+                    int subtracao = alturas[pessoas + i] - (alturas[i] + dif);
+                    if (subtracao < 0)
                     {
                         respFim = false;
                     }
-
-                    if (i == alturas.Length)
+                    if (i == pessoas - 1)
                     {
-                        if (respFim == true)
+                        if (respFim)
                         {
                             Console.WriteLine("SIM");
                         }
@@ -46,5 +43,21 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 respostas--;
             }
         }
+        public static void OrdenarBubble(int[] array)
+        {
+            for (int posicao = 1; posicao < array.Length; posicao++)
+            {
+                for (int difposicao = 0; difposicao < array.Length - 1; difposicao++)
+                {
+                    if (array[posicao] < array[difposicao])
+                    {
+                        int aux = array[posicao];
+                        array[posicao] = array[difposicao];
+                        array[difposicao] = aux;
+                    }
+                }
+            }
+        }
+
     }
 }
