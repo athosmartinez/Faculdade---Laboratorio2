@@ -1,0 +1,5 @@
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\TESTE\obj\Debug\net6.0\TESTE.csproj.AssemblyReference.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\TESTE\obj\Debug\net6.0\TESTE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\TESTE\obj\Debug\net6.0\TESTE.AssemblyInfoInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\TESTE\obj\Debug\net6.0\TESTE.AssemblyInfo.cs
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\TESTE\obj\Debug\net6.0\TESTE.csproj.CoreCompileInputs.cache

@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\athos\\.nuget\\packages\\": {},
+    "C:\\Users\\0103249\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\LISTA 3\\Seleção\\Seleção.csproj",
+      "projectUniqueName": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\LISTA 3\\Seleção\\Seleção.csproj",
       "projectName": "Seleção",
-      "projectPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\LISTA 3\\Seleção\\Seleção.csproj",
-      "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\LISTA 3\\Seleção\\obj\\",
+      "projectPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\LISTA 3\\Seleção\\Seleção.csproj",
+      "packagesPath": "C:\\Users\\0103249\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\LISTA 3\\Seleção\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\0103249\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -32,7 +32,6 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },

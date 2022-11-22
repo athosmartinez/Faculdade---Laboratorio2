@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\Só crescendo.csproj": {}
+    "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\Só crescendo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\Só crescendo.csproj": {
+    "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\Só crescendo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\Só crescendo.csproj",
+        "projectUniqueName": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\Só crescendo.csproj",
         "projectName": "Só crescendo",
-        "projectPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\Só crescendo.csproj",
-        "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\athos\\OneDrive\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\obj\\",
+        "projectPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\Só crescendo.csproj",
+        "packagesPath": "C:\\Users\\0103249\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\0103249\\Documents\\GitHub\\Faculdade---LaboratorioSegundo\\ExercicioTreinoVerde\\ExercicioTreinoVerde\\Só crescendo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\0103249\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +25,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },

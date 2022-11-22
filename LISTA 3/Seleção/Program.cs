@@ -44,12 +44,11 @@ namespace Selecao
                     {
                         if (lista[j] != null)
                         {
-                            if (lista[j].Id() < lista[min].Id())
+                            if (lista[j].Id < lista[min].Id)
                                 min = j;
                         }
                     }
-
-                    if (lista[i].Id() != lista[min].Id())
+                    if (lista[i].Id != lista[min].Id)
                     {
                         JogadorPrin aux = lista[i];
                         lista[i] = lista[min];

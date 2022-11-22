@@ -1,0 +1,15 @@
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\bin\Debug\net6.0\Seleção.exe
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\bin\Debug\net6.0\Seleção.deps.json
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\bin\Debug\net6.0\Seleção.runtimeconfig.json
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\bin\Debug\net6.0\Seleção.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\bin\Debug\net6.0\Seleção.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\Seleção.csproj.AssemblyReference.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\Seleção.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\Seleção.AssemblyInfoInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\Seleção.AssemblyInfo.cs
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\Seleção.csproj.CoreCompileInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\Seleção.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\refint\Seleção.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\Seleção.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\Seleção.genruntimeconfig.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Seleção\obj\Debug\net6.0\ref\Seleção.dll

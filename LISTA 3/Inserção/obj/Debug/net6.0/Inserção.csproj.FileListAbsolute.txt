@@ -1,0 +1,15 @@
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\bin\Debug\net6.0\Inserção.exe
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\bin\Debug\net6.0\Inserção.deps.json
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\bin\Debug\net6.0\Inserção.runtimeconfig.json
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\bin\Debug\net6.0\Inserção.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\bin\Debug\net6.0\Inserção.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\Inserção.csproj.AssemblyReference.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\Inserção.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\Inserção.AssemblyInfoInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\Inserção.AssemblyInfo.cs
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\Inserção.csproj.CoreCompileInputs.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\Inserção.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\refint\Inserção.dll
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\Inserção.pdb
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\Inserção.genruntimeconfig.cache
+C:\Users\0103249\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 3\Inserção\obj\Debug\net6.0\ref\Inserção.dll
