@@ -1,0 +1,5 @@
+*.exe
+*.csproj
+*bin
+*obj
+*.vs
