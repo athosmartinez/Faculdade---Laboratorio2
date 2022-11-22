@@ -57,7 +57,7 @@ namespace SóCrescendo // Note: actual namespace depends on the project name.
             {
                 for (int difposicao = 0; difposicao < array.Length - 1; difposicao++)
                 {
-                    if (array[posicao] < array[difposicao])
+                    if (array[posicao] > array[difposicao])
                     {
                         int aux = array[posicao];
                         array[posicao] = array[difposicao];
