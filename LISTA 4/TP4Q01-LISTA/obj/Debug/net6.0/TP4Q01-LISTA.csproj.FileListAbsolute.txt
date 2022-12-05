@@ -1,0 +1,15 @@
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\bin\Debug\net6.0\TP4Q01-LISTA.exe
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\bin\Debug\net6.0\TP4Q01-LISTA.deps.json
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\bin\Debug\net6.0\TP4Q01-LISTA.runtimeconfig.json
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\bin\Debug\net6.0\TP4Q01-LISTA.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\bin\Debug\net6.0\TP4Q01-LISTA.pdb
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\TP4Q01-LISTA.csproj.AssemblyReference.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\TP4Q01-LISTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\TP4Q01-LISTA.AssemblyInfoInputs.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\TP4Q01-LISTA.AssemblyInfo.cs
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\TP4Q01-LISTA.csproj.CoreCompileInputs.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\TP4Q01-LISTA.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\refint\TP4Q01-LISTA.dll
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\TP4Q01-LISTA.pdb
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\TP4Q01-LISTA.genruntimeconfig.cache
+C:\Users\athos\OneDrive\Documents\GitHub\Faculdade---LaboratorioSegundo\LISTA 4\TP4Q01-LISTA\obj\Debug\net6.0\ref\TP4Q01-LISTA.dll
